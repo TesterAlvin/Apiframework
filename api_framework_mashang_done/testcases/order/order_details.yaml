@@ -1,0 +1,11 @@
+-
+  feature: 我的订单
+  story: 订单详情接口
+  title: 测试详情列表接口
+  request:
+    method: post
+    url: ${read_config(base_url)}?s=order/detail
+    params:
+      token: ${read_yaml(token)}
+    json: {"id": "${read_yaml(order_id)}"}
+  validate: null

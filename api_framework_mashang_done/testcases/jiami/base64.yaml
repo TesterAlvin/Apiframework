@@ -1,0 +1,14 @@
+-
+  feature: BASE64加密
+  story: BASE64加密接口
+  title: 测试BASE64加密
+  request:
+    method: post
+    url: http://101.34.221.219:5000/base64login
+    data:
+      username: ${base64_encode(admin)}
+      password: ${base64_encode(123)}
+  validate:
+    codes: 200
+    equals:
+      error_code: 0

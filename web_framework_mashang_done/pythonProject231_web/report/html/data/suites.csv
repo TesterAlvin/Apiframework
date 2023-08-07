@@ -1,0 +1,6 @@
+"Status","Name","Duration in ms","Description"
+"passed","tests.test_admin#test_admin_login_1","793",""
+"passed","tests.test_admin#test_admin_login_1","921",""
+"passed","tests.test_admin#test_admin_login_1","988",""
+"passed","tests.test_admin#test_admin_login_1","815",""
+"passed","tests.test_admin#test_admin_login_1","1499",""

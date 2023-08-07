@@ -1,0 +1,191 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "testcases.test_all_case",
+    "children" : [ {
+      "name" : "验证登陆成功测试用例",
+      "uid" : "151155d6febcff18",
+      "parentUid" : "4c7aef185f8f3a1a93201c33a00e6ad6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1665060792337,
+        "stop" : 1665060792660,
+        "duration" : 323
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "验证密码必须是6-18位",
+      "uid" : "5019f3e2e2004d20",
+      "parentUid" : "4c7aef185f8f3a1a93201c33a00e6ad6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1665060792662,
+        "stop" : 1665060792705,
+        "duration" : 43
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "验证错误的用户名",
+      "uid" : "90a8f95837f74551",
+      "parentUid" : "4c7aef185f8f3a1a93201c33a00e6ad6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1665060792707,
+        "stop" : 1665060792745,
+        "duration" : 38
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "测试订单列表接口",
+      "uid" : "2edc4604e292d59d",
+      "parentUid" : "4c7aef185f8f3a1a93201c33a00e6ad6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1665060792748,
+        "stop" : 1665060792858,
+        "duration" : 110
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "测试获取access_token鉴权码接口",
+      "uid" : "977862a676306ac3",
+      "parentUid" : "4c7aef185f8f3a1a93201c33a00e6ad6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1665060792860,
+        "stop" : 1665060793166,
+        "duration" : 306
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "用例标题",
+      "uid" : "2fbd0e86ac193ac5",
+      "parentUid" : "4c7aef185f8f3a1a93201c33a00e6ad6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1665060793168,
+        "stop" : 1665060793170,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "用例标题",
+      "uid" : "597994df23bbaee5",
+      "parentUid" : "4c7aef185f8f3a1a93201c33a00e6ad6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1665060793173,
+        "stop" : 1665060793247,
+        "duration" : 74
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "测试BASE64加密",
+      "uid" : "c50a658bd80e51dd",
+      "parentUid" : "4c7aef185f8f3a1a93201c33a00e6ad6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1665060793250,
+        "stop" : 1665060793309,
+        "duration" : 59
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "测试MD5加密接口",
+      "uid" : "99262b3cc5a6fa79",
+      "parentUid" : "4c7aef185f8f3a1a93201c33a00e6ad6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1665060793312,
+        "stop" : 1665060793365,
+        "duration" : 53
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "测试RSA加密",
+      "uid" : "1605a2ac7e145874",
+      "parentUid" : "4c7aef185f8f3a1a93201c33a00e6ad6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1665060793367,
+        "stop" : 1665060793459,
+        "duration" : 92
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "测试订单列表接口",
+      "uid" : "e489595d3e084801",
+      "parentUid" : "4c7aef185f8f3a1a93201c33a00e6ad6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1665060793461,
+        "stop" : 1665060793527,
+        "duration" : 66
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "测试详情列表接口",
+      "uid" : "6bd212485941f353",
+      "parentUid" : "4c7aef185f8f3a1a93201c33a00e6ad6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1665060793531,
+        "stop" : 1665060793578,
+        "duration" : 47
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "测试取消接口",
+      "uid" : "a520e4b6d7a6f335",
+      "parentUid" : "4c7aef185f8f3a1a93201c33a00e6ad6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1665060793581,
+        "stop" : 1665060793618,
+        "duration" : 37
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "测试订单列表接口",
+      "uid" : "a6a47fc81e2090fd",
+      "parentUid" : "4c7aef185f8f3a1a93201c33a00e6ad6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1665060793622,
+        "stop" : 1665060793745,
+        "duration" : 123
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "testcases.test_all_case"
+  } ]
+}

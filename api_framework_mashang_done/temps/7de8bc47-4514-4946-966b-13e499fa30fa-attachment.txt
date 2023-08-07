@@ -1,0 +1,10 @@
+INFO     commons.request_util:request_util.py:22 ----------测试用例请求开始----------
+INFO     commons.request_util:request_util.py:36 用例标题：验证密码必须是6-18位
+INFO     commons.request_util:request_util.py:37 请求方式：post
+INFO     commons.request_util:request_util.py:38 请求路径：http://101.34.221.219:8010/api.php?s=user/login
+INFO     commons.request_util:request_util.py:55 请求data参数：{'accounts': 'baili', 'pwd': '123', 'type': 'username'}
+INFO     commons.request_util:request_util.py:53 请求params参数：{'application': 'app', 'application_client_type': 'h5'}
+INFO     commons.request_util:request_util.py:64 预期结果：{'codes': 200, 'contains': '密码格式 6~18 个字符', 'equals': {'code': -1}}
+INFO     commons.request_util:request_util.py:65 实际结果：{"msg":"密码格式 6~18 个字符","code":-1,"data":""}
+INFO     commons.request_util:request_util.py:72 接口测试通过!
+INFO     commons.request_util:request_util.py:73 ----------测试用例请求结束----------

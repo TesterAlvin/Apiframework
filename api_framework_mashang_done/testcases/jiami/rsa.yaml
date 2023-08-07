@@ -1,0 +1,14 @@
+-
+  feature: RSA加密
+  story: RSA加密接口
+  title: 测试RSA加密
+  request:
+    method: post
+    url: http://101.34.221.219:5000/rsalogin
+    data:
+      username: ${ras_encode(admin)}
+      password: ${ras_encode(123)}
+  validate:
+    codes: 200
+    equals:
+      error_code: 0

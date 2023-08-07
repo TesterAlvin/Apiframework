@@ -1,0 +1,17 @@
+-
+  feature: 我的订单
+  story: 订单列表接口
+  title: 测试订单列表接口
+  request:
+    method: post
+    url: ${read_config(base_url)}?s=order/index
+    params:
+      token: ${read_yaml(token)}
+    data:
+      page: 1
+      keywords: ""
+      status: "-1"
+      is_more: 1
+  extract:
+    order_id: $.data.data[0].id
+  validate: null

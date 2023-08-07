@@ -1,0 +1,14 @@
+-
+  feature: 公众号模块
+  story: 获取access_token鉴权码接口
+  title: 测试获取access_token鉴权码接口
+  request:
+    method: get
+    url: https://api.weixin.qq.com/cgi-bin/token
+    params:
+      "grant_type": "client_credential"
+      "appid": "wx8a9de038e93f77ab"
+      "secret": "8326fc915928dee3165720c910effb86"
+  extract:
+    baili_token: $.access_token
+  validate: null

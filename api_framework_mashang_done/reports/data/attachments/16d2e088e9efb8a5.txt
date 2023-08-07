@@ -1,0 +1,11 @@
+INFO     commons.request_util:request_util.py:22 ----------测试用例请求开始----------
+INFO     commons.request_util:request_util.py:36 用例标题：用例标题
+INFO     commons.request_util:request_util.py:37 请求方式：post
+INFO     commons.request_util:request_util.py:38 请求路径：https://api.weixin.qq.com/cgi-bin/tags/update
+INFO     commons.request_util:request_util.py:40 请求头部：None
+INFO     commons.request_util:request_util.py:57 请求json参数：{'tag': {'id': 1871, 'name': 'mashang111'}}
+INFO     commons.request_util:request_util.py:53 请求params参数：{'access_token': 'access_token', 'application': 'app', 'application_client_type': 'h5'}
+INFO     commons.request_util:request_util.py:64 预期结果：None
+INFO     commons.request_util:request_util.py:65 实际结果：{"errcode":40001,"errmsg":"invalid credential, access_token is invalid or not latest rid: 633ecfb9-29ec3aac-52c2537a"}
+INFO     commons.request_util:request_util.py:72 接口测试通过!
+INFO     commons.request_util:request_util.py:73 ----------测试用例请求结束----------

@@ -1,0 +1,10 @@
+INFO     commons.request_util:request_util.py:22 ----------测试用例请求开始----------
+INFO     commons.request_util:request_util.py:36 用例标题：验证登陆成功测试用例
+INFO     commons.request_util:request_util.py:37 请求方式：post
+INFO     commons.request_util:request_util.py:38 请求路径：http://101.34.221.219:8010/api.php?s=user/login
+INFO     commons.request_util:request_util.py:55 请求data参数：{'accounts': 'baili', 'pwd': 'baili123', 'type': 'username'}
+INFO     commons.request_util:request_util.py:53 请求params参数：{'application': 'app', 'application_client_type': 'h5'}
+INFO     commons.request_util:request_util.py:64 预期结果：{'codes': 200, 'contains': '登录成功', 'equals': {'code': 0}}
+INFO     commons.request_util:request_util.py:65 实际结果：{"msg":"登录成功","code":0,"data":{"id":"548","alipay_openid":"","weixin_openid":"","weixin_unionid":"","weixin_web_openid":"","baidu_openid":"","toutiao_openid":"","qq_openid":"","qq_unionid":"","status":"0","token":"b5d35051dee4f7c5f5df646d39761a55","username":"baili","nickname":"","mobile":"","email":"","gender":"0","avatar":"http:\/\/101.34.221.219:8010\/static\/index\/default\/images\/default-user-avatar.jpg","province":"","city":"","birthday":"0","address":"","integral":"0","locking_integral":"0","referrer":"0","is_delete_time":"0","add_time":"1654095202","upd_time":"1665060792","add_time_text":"2022-06-01 22:53:22","upd_time_text":"2022-10-06 20:53:12","gender_text":"保密","birthday_text":"","mobile_security":"","email_security":"","user_name_view":"baili","is_mandatory_bind_mobile":0}}
+INFO     commons.request_util:request_util.py:72 接口测试通过!
+INFO     commons.request_util:request_util.py:73 ----------测试用例请求结束----------

@@ -1,0 +1,38 @@
+
+#-代表多个参数，需要封装
+-
+  name:获得统一的鉴权token
+
+#请求参数
+  request:
+  #请求方式：get、post、put....
+    method: get
+  #请求地址
+    url: http://www.baidu.com
+  #请求参数：多个参数对应
+    data:
+      param1:param1
+      param2:param2
+      param3:param3
+    files:
+        media:"E:/test.txt"
+
+  #断言：判断测试用例是否执行通过
+validate:None
+- equals:{status_code:200}
+- contains:$csv{assert_str}
+
+
+
+
+-
+  story : 需求名称
+  title : 测试用例名称
+  request :
+    method : get
+    url : www.baidu.com
+    headers:
+      Accept :
+    data:
+    params:
+  validate: null

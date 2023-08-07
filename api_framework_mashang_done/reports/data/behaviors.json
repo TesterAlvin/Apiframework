@@ -1,0 +1,271 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "项目名称：码尚教育B2C商城接口自动化测试",
+    "children" : [ {
+      "name" : "用户相关",
+      "children" : [ {
+        "name" : "登陆b2c商城接口",
+        "children" : [ {
+          "name" : "验证登陆成功测试用例",
+          "uid" : "151155d6febcff18",
+          "parentUid" : "5c5ce74db3a40fd0221c72890491564c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1665060792337,
+            "stop" : 1665060792660,
+            "duration" : 323
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "验证密码必须是6-18位",
+          "uid" : "5019f3e2e2004d20",
+          "parentUid" : "5c5ce74db3a40fd0221c72890491564c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1665060792662,
+            "stop" : 1665060792705,
+            "duration" : 43
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "验证错误的用户名",
+          "uid" : "90a8f95837f74551",
+          "parentUid" : "5c5ce74db3a40fd0221c72890491564c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1665060792707,
+            "stop" : 1665060792745,
+            "duration" : 38
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "5c5ce74db3a40fd0221c72890491564c"
+      } ],
+      "uid" : "208683d505f2134cc0163e8b93555c65"
+    }, {
+      "name" : "下订单流程用例",
+      "children" : [ {
+        "name" : "登陆b2c商城接口",
+        "children" : [ {
+          "name" : "测试订单列表接口",
+          "uid" : "2edc4604e292d59d",
+          "parentUid" : "9a62b7dfa8070dea566827dc170c4448",
+          "status" : "passed",
+          "time" : {
+            "start" : 1665060792748,
+            "stop" : 1665060792858,
+            "duration" : 110
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "9a62b7dfa8070dea566827dc170c4448"
+      } ],
+      "uid" : "f450ff3a64f29021d3530a5fce703562"
+    }, {
+      "name" : "公众号模块",
+      "children" : [ {
+        "name" : "获取access_token鉴权码接口",
+        "children" : [ {
+          "name" : "测试获取access_token鉴权码接口",
+          "uid" : "977862a676306ac3",
+          "parentUid" : "6782a1f2bf2ec632d3cd859271b7e970",
+          "status" : "passed",
+          "time" : {
+            "start" : 1665060792860,
+            "stop" : 1665060793166,
+            "duration" : 306
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "6782a1f2bf2ec632d3cd859271b7e970"
+      } ],
+      "uid" : "3502df6c81c69afc29e53841a1a8a01d"
+    }, {
+      "name" : "模块",
+      "children" : [ {
+        "name" : "接口",
+        "children" : [ {
+          "name" : "用例标题",
+          "uid" : "2fbd0e86ac193ac5",
+          "parentUid" : "1c123a7641e950c0cecce0201d3cf15a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1665060793168,
+            "stop" : 1665060793170,
+            "duration" : 2
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "用例标题",
+          "uid" : "597994df23bbaee5",
+          "parentUid" : "1c123a7641e950c0cecce0201d3cf15a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1665060793173,
+            "stop" : 1665060793247,
+            "duration" : 74
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "1c123a7641e950c0cecce0201d3cf15a"
+      } ],
+      "uid" : "be92d0e3caab668817387dad8b69d956"
+    }, {
+      "name" : "BASE64加密",
+      "children" : [ {
+        "name" : "BASE64加密接口",
+        "children" : [ {
+          "name" : "测试BASE64加密",
+          "uid" : "c50a658bd80e51dd",
+          "parentUid" : "69ebfba55b7507bce80b9b84a811ec52",
+          "status" : "passed",
+          "time" : {
+            "start" : 1665060793250,
+            "stop" : 1665060793309,
+            "duration" : 59
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "69ebfba55b7507bce80b9b84a811ec52"
+      } ],
+      "uid" : "c102ffb7fba1ebbf17707c4a145afc36"
+    }, {
+      "name" : "MD5加密",
+      "children" : [ {
+        "name" : "MD5加密接口",
+        "children" : [ {
+          "name" : "测试MD5加密接口",
+          "uid" : "99262b3cc5a6fa79",
+          "parentUid" : "00949f3935de840cc28e6d95c46f7f98",
+          "status" : "passed",
+          "time" : {
+            "start" : 1665060793312,
+            "stop" : 1665060793365,
+            "duration" : 53
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "00949f3935de840cc28e6d95c46f7f98"
+      } ],
+      "uid" : "9fd0122f8426bc0ee6404125537cbb24"
+    }, {
+      "name" : "RSA加密",
+      "children" : [ {
+        "name" : "RSA加密接口",
+        "children" : [ {
+          "name" : "测试RSA加密",
+          "uid" : "1605a2ac7e145874",
+          "parentUid" : "ee43387db524d4939a097208b7fec55e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1665060793367,
+            "stop" : 1665060793459,
+            "duration" : 92
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "ee43387db524d4939a097208b7fec55e"
+      } ],
+      "uid" : "44ba3db06ca252d022507a2e18c1bcf6"
+    }, {
+      "name" : "我的订单",
+      "children" : [ {
+        "name" : "订单列表接口",
+        "children" : [ {
+          "name" : "测试订单列表接口",
+          "uid" : "e489595d3e084801",
+          "parentUid" : "1de280893b15bf132200b59ceb2eecad",
+          "status" : "passed",
+          "time" : {
+            "start" : 1665060793461,
+            "stop" : 1665060793527,
+            "duration" : 66
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "1de280893b15bf132200b59ceb2eecad"
+      }, {
+        "name" : "订单详情接口",
+        "children" : [ {
+          "name" : "测试详情列表接口",
+          "uid" : "6bd212485941f353",
+          "parentUid" : "982e296f6487c61bdde12f4a8bf71b5b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1665060793531,
+            "stop" : 1665060793578,
+            "duration" : 47
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "982e296f6487c61bdde12f4a8bf71b5b"
+      }, {
+        "name" : "订单取消接口",
+        "children" : [ {
+          "name" : "测试取消接口",
+          "uid" : "a520e4b6d7a6f335",
+          "parentUid" : "4fcc0660635caf5e887e630e336cb9d6",
+          "status" : "passed",
+          "time" : {
+            "start" : 1665060793581,
+            "stop" : 1665060793618,
+            "duration" : 37
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "4fcc0660635caf5e887e630e336cb9d6"
+      } ],
+      "uid" : "85a0cb7b382423634e5cdb5449eca7fb"
+    }, {
+      "name" : "SIGN签名",
+      "children" : [ {
+        "name" : "SIGN签名接口",
+        "children" : [ {
+          "name" : "测试订单列表接口",
+          "uid" : "a6a47fc81e2090fd",
+          "parentUid" : "cf4f3ee08b3d115841a9d44594ee0ad2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1665060793622,
+            "stop" : 1665060793745,
+            "duration" : 123
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "cf4f3ee08b3d115841a9d44594ee0ad2"
+      } ],
+      "uid" : "6f28151a3b62fc3e4e50dfc72c15498f"
+    } ],
+    "uid" : "d51fdecc2aa6c7aaec11df21175320bb"
+  } ]
+}

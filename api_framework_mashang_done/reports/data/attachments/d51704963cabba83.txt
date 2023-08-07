@@ -1,0 +1,3 @@
+INFO     commons.request_util:request_util.py:22 ----------测试用例请求开始----------
+ERROR    commons.request_util:request_util.py:78 YAML一级目录必须包含feature,story,title,request,validate
+INFO     commons.request_util:request_util.py:79 ----------测试用例请求结束----------

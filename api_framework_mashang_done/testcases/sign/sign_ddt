@@ -1,0 +1,20 @@
+-
+  feature: SIGN签名
+  story: SIGN签名接口
+  title: 测试SIGN签名
+  request:
+    method: post
+    url: http://101.34.221.219:5000/md5login?m=u&c=login&a=dorun
+    headers:
+      sign: ${ddt_sign(testcases/flow_sign.yaml/sign_ddt.yaml,$ddt{index})}
+    params:
+      csrf_token: ${read_yaml(token)}
+    data:
+      order_id: $ddt{order_id}
+      username: $ddt{username}
+  parametrize:
+    - ["order_id","username","index"]
+    - ["654646","admin",0]
+    - ["www","baili",1]
+  validate:
+    codes: 200

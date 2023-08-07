@@ -1,0 +1,11 @@
+INFO     commons.request_util:request_util.py:22 ----------测试用例请求开始----------
+INFO     commons.request_util:request_util.py:36 用例标题：测试RSA加密
+INFO     commons.request_util:request_util.py:37 请求方式：post
+INFO     commons.request_util:request_util.py:38 请求路径：http://101.34.221.219:5000/rsalogin
+INFO     commons.request_util:request_util.py:55 请求data参数：{'password': 'YYNlyGGOD+S3qL08DqfDiNig7K5CohOJvcyFJ1O2y19J4JZfnEHppJqqMzVImep4MZhPttW+6lQilYrY6KhrfOXC5aai35J9iyeYCzPagJkK5BI52CsyMWINgFE38PzcE2an92+nLqqIZiWHcZXAm7MUEwR15F+GdpPUPYy5jNk=', 'username': 'J7DuilNQhjsuEqMfHeI+3KPYu67ULoVRI5D3L7AMi89MLaHmJaPigsZ5fjbyj9dMW05AEAJ+VvNS6AIKJDjv3YXyU061Y8ZjYjL55ia4re4/4n3eRuHXYdPbJsD4dFihD93G+Hlhmdc+x1dZvv+e64N3vf5PlDyFCGuloPRuS1E='}
+INFO     commons.request_util:request_util.py:53 请求params参数：{'application': 'app', 'application_client_type': 'h5'}
+INFO     commons.request_util:request_util.py:64 预期结果：{'codes': 200, 'equals': {'error_code': 0}}
+INFO     commons.request_util:request_util.py:65 实际结果：{"error_code":0,"message":"RSA\u52a0\u5bc6\u767b\u9646\u6210\u529f\uff01"}
+
+INFO     commons.request_util:request_util.py:72 接口测试通过!
+INFO     commons.request_util:request_util.py:73 ----------测试用例请求结束----------

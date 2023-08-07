@@ -1,0 +1,31 @@
+-
+  feature: 下订单流程用例
+  story: 登陆b2c商城接口
+  title: 登陆b2c商城接口
+  request:
+    method: post
+    url: ${read_config(base_url)}?s=user/login
+    data:
+      accounts: baili
+      pwd: baili123
+      type: username
+  extract:
+    tokens: $.data.token
+  validate:
+    codes: 200
+-
+  feature: 下订单流程用例
+  story: 订单列表接口
+  title: 测试订单列表接口
+  request:
+    method: post
+    url: ${read_config(base_url)}?s=order/index
+    params:
+      token: ${read_yaml(tokens)}
+    data:
+      page: 1
+      keywords: ""
+      status: "-1"
+      is_more: 1
+  validate:
+    codes: 200

@@ -1,0 +1,86 @@
+一、api_frame框架说明
+整个接口自动化测试框架只需要写yaml测试用例即可，但是特别要注意：有关联用例，关联的上一个接口用例
+必须在上面（可以放到a文件夹或者是通过修改yaml的名称实现）
+
+二、yaml编写测试用例常规可用的关键字
+feature：模块名（必填）
+story：接口名（必填）
+title：用例标题（必填）
+request:请求（必填）
+    method:请求方式（必填）
+    url：请求路径（必填）
+    headers
+    params(url之后的参数)
+    data(表单)
+    json(json数据)
+    files(文件上传)
+validate:断言（必填）
+    codes
+    equals
+    contains
+    db_equals
+
+三、接口关联用法
+上一个接口提取变量使用extract关键字
+extract:
+    token: ur(.*?)tp://101.34   正则表达式提取
+    order_id2: $.data.data[0].id    jsonpath提取
+下一个接口使用变量(token即extract提取的变量名说)
+${read_yaml(token)}
+
+四、数据驱动通过parametrize关键字实现
+parametrize:
+    - ["order_id","username","index"]
+    - ["654646","admin",0]
+    - ["www","baili",1]
+
+五、断言
+validate:断言
+    codes
+    equals
+    contains
+    db_equals
+
+六、框架代码扩展
+所有的框架扩展代码都写在debug_talk.py文件里面
+已有的扩展函数：
+md5_encode,base64_encode......
+调用方式：
+${read_yaml(token1)}    ${函数名(参数名1,参数名2)}
+
+七、流程用例
+-
+  feature: 下订单流程用例
+  story: 登陆b2c商城接口
+  title: 登陆b2c商城接口
+  request:
+    method: post
+    url: ${read_config(base_url)}?s=user/login
+    data:
+      accounts: baili
+      pwd: baili123
+      type: username
+  extract:
+    token1: $.data.token
+  validate:
+    codes: 200
+-
+  feature: 下订单流程用例
+  story: 订单列表接口
+  title: 测试订单列表接口
+  request:
+    method: post
+    url: ${read_config(base_url)}?s=order/index
+    params:
+      token: ${read_yaml(token1)}
+    data:
+      page: 1
+      keywords: ""
+      status: "-1"
+      is_more: 1
+  extract:
+    order_id1: $.data.data[0].id
+  validate:
+    codes: 200
+
+

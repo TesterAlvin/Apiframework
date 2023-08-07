@@ -1,0 +1,23 @@
+-
+  feature: 用户相关
+  story: 登陆b2c商城接口
+  title: $ddt{title}
+  request:
+    method: post
+    url: ${read_config(base_url)}?s=user/login
+    data:
+      accounts: $ddt{accounts}
+      pwd: $ddt{pwd}
+      type: $ddt{type}
+  extract:
+    token: $.data.token
+  parametrize:
+    - ["title","accounts","pwd","type","assert_code","assert_msg"]
+    - ["验证登陆成功测试用例","baili","baili123","username",0,"登录成功"]
+    - ["验证密码必须是6-18位","baili","123","username",-1,"密码格式 6~18 个字符"]
+    - ["验证错误的用户名",["baili","北凡"],123,"username",-3,"登录帐号不存在"]
+  validate:
+    codes: 200
+    equals:
+      code: $ddt{assert_code}
+    contains: $ddt{assert_msg}

@@ -1,0 +1,9 @@
+INFO     commons.request_util:request_util.py:22 ----------测试用例请求开始----------
+INFO     commons.request_util:request_util.py:36 用例标题：测试获取access_token鉴权码接口
+INFO     commons.request_util:request_util.py:37 请求方式：get
+INFO     commons.request_util:request_util.py:38 请求路径：https://api.weixin.qq.com/cgi-bin/token
+INFO     commons.request_util:request_util.py:53 请求params参数：{'appid': 'wx8a9de038e93f77ab', 'grant_type': 'client_credential', 'secret': '8326fc915928dee3165720c910effb86', 'application': 'app', 'application_client_type': 'h5'}
+INFO     commons.request_util:request_util.py:64 预期结果：None
+INFO     commons.request_util:request_util.py:65 实际结果：{"access_token":"61_UZiCWW-2Rml-5svvIbz2fpYuvGuXlu0UCADDY2j3lxVFWTNufhqm0a-IEadfOf77reuKE7Mm0uoAZnHdefZm8k4laTAlxB4nSpONNpI0PxYKmS17-OXaqXusjhwzXVNILGaspj9Lsr7sGkeVFFYiAEAZZS","expires_in":7200}
+INFO     commons.request_util:request_util.py:72 接口测试通过!
+INFO     commons.request_util:request_util.py:73 ----------测试用例请求结束----------

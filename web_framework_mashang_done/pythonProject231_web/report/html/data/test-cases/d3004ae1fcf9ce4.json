@@ -1,0 +1,132 @@
+{
+  "uid" : "d3004ae1fcf9ce4",
+  "name" : "test_admin_login_1[---\\u7ba1\\u7406\\u5458\\u5e10\\u53f7\\u4e0d\\u80fd\\u4e3a\\u7a7a]",
+  "fullName" : "tests.test_admin#test_admin_login_1",
+  "historyId" : "8ae17dffaedbba259019050f7c8dd2cb",
+  "time" : {
+    "start" : 1685368181684,
+    "stop" : 1685368182626,
+    "duration" : 942
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "anonymous_driver",
+    "time" : {
+      "start" : 1685368180237,
+      "stop" : 1685368181684,
+      "duration" : 1447
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "我是测试步骤001",
+      "time" : {
+        "start" : 1685368181684,
+        "stop" : 1685368182626,
+        "duration" : 942
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "anonymous_driver",
+        "value" : "<selenium.webdriver.chrome.webdriver.WebDriver (session=\"6ce638d795cc87ac5a882569d2ae766f\")>"
+      }, {
+        "name" : "username",
+        "value" : "''"
+      }, {
+        "name" : "password",
+        "value" : "''"
+      }, {
+        "name" : "code",
+        "value" : "''"
+      }, {
+        "name" : "assert_msg",
+        "value" : "'管理员帐号不能为空'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "anonymous_driver::0",
+    "time" : {
+      "start" : 1685368182630,
+      "stop" : 1685368182630,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_admin"
+  }, {
+    "name" : "host",
+    "value" : "ltq"
+  }, {
+    "name" : "thread",
+    "value" : "32136-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_admin"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "assert_msg",
+    "value" : "'管理员帐号不能为空'"
+  }, {
+    "name" : "code",
+    "value" : "''"
+  }, {
+    "name" : "password",
+    "value" : "''"
+  }, {
+    "name" : "username",
+    "value" : "''"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d3004ae1fcf9ce4.json",
+  "parameterValues" : [ "'管理员帐号不能为空'", "''", "''", "''" ]
+}

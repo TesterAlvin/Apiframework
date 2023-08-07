@@ -1,0 +1,132 @@
+{
+  "uid" : "f056c58389a937e4",
+  "name" : "test_admin_login_1[admin-msjy123-6666-\\u9a8c\\u8bc1\\u7801\\u9519\\u8bef]",
+  "fullName" : "tests.test_admin#test_admin_login_1",
+  "historyId" : "047bb203840a49538659edd7130ba0f7",
+  "time" : {
+    "start" : 1685367916645,
+    "stop" : 1685367918153,
+    "duration" : 1508
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "anonymous_driver",
+    "time" : {
+      "start" : 1685367915229,
+      "stop" : 1685367916644,
+      "duration" : 1415
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "我是测试步骤001",
+      "time" : {
+        "start" : 1685367916645,
+        "stop" : 1685367918153,
+        "duration" : 1508
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "anonymous_driver",
+        "value" : "<selenium.webdriver.chrome.webdriver.WebDriver (session=\"40ea886c23bf89b1a4c26647fbc8cc4c\")>"
+      }, {
+        "name" : "username",
+        "value" : "'admin'"
+      }, {
+        "name" : "password",
+        "value" : "'msjy123'"
+      }, {
+        "name" : "code",
+        "value" : "'6666'"
+      }, {
+        "name" : "assert_msg",
+        "value" : "'验证码错误'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "anonymous_driver::0",
+    "time" : {
+      "start" : 1685367918155,
+      "stop" : 1685367918155,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_admin"
+  }, {
+    "name" : "host",
+    "value" : "ltq"
+  }, {
+    "name" : "thread",
+    "value" : "13976-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_admin"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "assert_msg",
+    "value" : "'验证码错误'"
+  }, {
+    "name" : "code",
+    "value" : "'6666'"
+  }, {
+    "name" : "password",
+    "value" : "'msjy123'"
+  }, {
+    "name" : "username",
+    "value" : "'admin'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f056c58389a937e4.json",
+  "parameterValues" : [ "'验证码错误'", "'6666'", "'msjy123'", "'admin'" ]
+}

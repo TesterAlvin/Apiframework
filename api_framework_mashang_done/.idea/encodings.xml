@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/commons/assert_util.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/commons/database_util.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/commons/ddt_util.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/commons/global_args.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/hotloads/debug_talk.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/pytest.ini" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/run.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/testcases/flow/flow.yaml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/testcases/gzh/select_flag.yaml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/testcases/gzh/test_edit_flag.yaml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/testcases/gzh/test_file_upload.yaml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/testcases/gzh/test_get_token.yaml" charset="UTF-8" />
+    <file url="PROJECT" charset="GBK" />
+  </component>
+</project>

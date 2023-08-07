@@ -1,0 +1,156 @@
+{
+  "uid" : "e0293d61316a872d",
+  "name" : "test_admin_login_1[admin-msjy123--\\u9a8c\\u8bc1\\u7801\\u4e0d\\u80fd\\u4e3a\\u7a7a]",
+  "fullName" : "tests.test_admin#test_admin_login_1",
+  "historyId" : "703db36b3dbfff4f3f9dd01d4404a19a",
+  "time" : {
+    "start" : 1685368608345,
+    "stop" : 1685368609266,
+    "duration" : 921
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "anonymous_driver",
+    "time" : {
+      "start" : 1685368606971,
+      "stop" : 1685368608344,
+      "duration" : 1373
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "我是测试步骤001",
+      "time" : {
+        "start" : 1685368608345,
+        "stop" : 1685368609266,
+        "duration" : 921
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "48e8d52c7bb8eb79",
+        "name" : "我是测试步骤详细描述001进行断言",
+        "source" : "48e8d52c7bb8eb79.attach",
+        "type" : "text/plain",
+        "size" : 6
+      } ],
+      "parameters" : [ {
+        "name" : "anonymous_driver",
+        "value" : "<selenium.webdriver.chrome.webdriver.WebDriver (session=\"10d3f9c97b25ec3358b8f4a23ca3c372\")>"
+      }, {
+        "name" : "username",
+        "value" : "'admin'"
+      }, {
+        "name" : "password",
+        "value" : "'msjy123'"
+      }, {
+        "name" : "code",
+        "value" : "''"
+      }, {
+        "name" : "assert_msg",
+        "value" : "'验证码不能为空'"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "anonymous_driver::0",
+    "time" : {
+      "start" : 1685368609269,
+      "stop" : 1685368609269,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_admin"
+  }, {
+    "name" : "host",
+    "value" : "ltq"
+  }, {
+    "name" : "thread",
+    "value" : "21220-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_admin"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "assert_msg",
+    "value" : "'验证码不能为空'"
+  }, {
+    "name" : "code",
+    "value" : "''"
+  }, {
+    "name" : "password",
+    "value" : "'msjy123'"
+  }, {
+    "name" : "username",
+    "value" : "'admin'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6e722fcb3197d724",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685368190272,
+        "stop" : 1685368191179,
+        "duration" : 907
+      }
+    }, {
+      "uid" : "894f42a431631aed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1685367912115,
+        "stop" : 1685367913174,
+        "duration" : 1059
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e0293d61316a872d.json",
+  "parameterValues" : [ "'验证码不能为空'", "''", "'msjy123'", "'admin'" ]
+}

@@ -1,0 +1,34 @@
+-
+  feature: SIGN签名
+  story: SIGN签名接口
+  title: 测试SIGN签名
+  request:
+    method: post
+    url: http://101.34.221.219:5000/md5login?m=u&c=login&asmoke=dorun
+    headers:
+      sign: ${flow_sign(testcases/sign/flow_sign.yaml,0)}
+    params:
+      csrf_token: ${read_yaml(token)}
+    data:
+      order_id: "admin"
+      username: "123"
+  validate:
+    codes: 200
+-
+  feature: 下订单流程用例
+  story: 订单列表接口
+  title: 测试订单列表接口
+  request:
+    method: post
+    url: ${read_config(base_url)}?s=order/index
+    headers:
+      sign: ${flow_sign(testcases/sign/flow_sign.yaml,1)}
+    params:
+      token: ${read_yaml(token)}
+    data:
+      page: 1
+      keywords: "w"
+      status: "-1"
+      is_more: 1
+  validate:
+    codes: 200

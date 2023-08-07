@@ -1,0 +1,141 @@
+[ {
+  "uid" : "2fbd0e86ac193ac5",
+  "name" : "用例标题",
+  "time" : {
+    "start" : 1665060793168,
+    "stop" : 1665060793170,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5019f3e2e2004d20",
+  "name" : "验证密码必须是6-18位",
+  "time" : {
+    "start" : 1665060792662,
+    "stop" : 1665060792705,
+    "duration" : 43
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a520e4b6d7a6f335",
+  "name" : "测试取消接口",
+  "time" : {
+    "start" : 1665060793581,
+    "stop" : 1665060793618,
+    "duration" : 37
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "90a8f95837f74551",
+  "name" : "验证错误的用户名",
+  "time" : {
+    "start" : 1665060792707,
+    "stop" : 1665060792745,
+    "duration" : 38
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "977862a676306ac3",
+  "name" : "测试获取access_token鉴权码接口",
+  "time" : {
+    "start" : 1665060792860,
+    "stop" : 1665060793166,
+    "duration" : 306
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "151155d6febcff18",
+  "name" : "验证登陆成功测试用例",
+  "time" : {
+    "start" : 1665060792337,
+    "stop" : 1665060792660,
+    "duration" : 323
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6bd212485941f353",
+  "name" : "测试详情列表接口",
+  "time" : {
+    "start" : 1665060793531,
+    "stop" : 1665060793578,
+    "duration" : 47
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2edc4604e292d59d",
+  "name" : "测试订单列表接口",
+  "time" : {
+    "start" : 1665060792748,
+    "stop" : 1665060792858,
+    "duration" : 110
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "99262b3cc5a6fa79",
+  "name" : "测试MD5加密接口",
+  "time" : {
+    "start" : 1665060793312,
+    "stop" : 1665060793365,
+    "duration" : 53
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e489595d3e084801",
+  "name" : "测试订单列表接口",
+  "time" : {
+    "start" : 1665060793461,
+    "stop" : 1665060793527,
+    "duration" : 66
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a6a47fc81e2090fd",
+  "name" : "测试订单列表接口",
+  "time" : {
+    "start" : 1665060793622,
+    "stop" : 1665060793745,
+    "duration" : 123
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c50a658bd80e51dd",
+  "name" : "测试BASE64加密",
+  "time" : {
+    "start" : 1665060793250,
+    "stop" : 1665060793309,
+    "duration" : 59
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "597994df23bbaee5",
+  "name" : "用例标题",
+  "time" : {
+    "start" : 1665060793173,
+    "stop" : 1665060793247,
+    "duration" : 74
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1605a2ac7e145874",
+  "name" : "测试RSA加密",
+  "time" : {
+    "start" : 1665060793367,
+    "stop" : 1665060793459,
+    "duration" : 92
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
