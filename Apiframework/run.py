@@ -19,5 +19,5 @@ if __name__ == '__main__':
     os.system('allure generate ./temp -o reports --clean')
 
 
-    #注：--clean  清除原有测试报告，才能重新写入测试报告
+    #注：--clean  清除原有测试报告，才能重新写入测试报告123
 
